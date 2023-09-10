@@ -1,0 +1,21 @@
+/* .na_outermost {
+   margin-bottom: 10vh;
+}
+
+.na_outermost .group-3 h3 {
+   text-align: center;
+}
+
+.responsive_list {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+   width: 100%;
+   margin: auto;
+}
+
+@media only screen and (max-width: 545px) {
+   .responsive_list {
+      justify-content: center;
+   }
+} */

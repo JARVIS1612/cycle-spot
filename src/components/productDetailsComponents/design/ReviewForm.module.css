@@ -1,0 +1,43 @@
+.review_form{
+   border: 1px solid rgb(200, 200, 200);
+   padding: 3%;
+}
+
+.rating_field{
+   margin-top: 20px;
+   display: flex;
+   gap: 10px;
+   padding: 0;
+}
+
+.title{
+   font-size: 28px !important;
+}
+
+.user_details_fields{
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   gap: 20px;
+}
+
+.user_details_fields div{
+   width: 100%;
+}
+
+.review_form .checkbox, .review_field{
+   margin: 20px 0px;
+}
+
+.review_form .title{
+   font-size: 1.34rem;
+   font-style: normal;
+}
+
+@media only screen and (max-width: 921px) {
+   .user_details_fields{
+      width: 100%;
+      flex-direction: column;
+      gap: 20px;
+   }
+}

@@ -1,0 +1,116 @@
+.outer{
+   background-color: var(--bg-color);
+   padding-top: 8rem;
+   padding-bottom: 4rem;
+}
+
+.itemsandfilters {
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: space-between;
+   gap: 20px;
+   width: 80%;
+   margin: auto;
+}
+
+.filters {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+
+.displayItems {
+   padding: 50px;
+   background-color: var(--block-color);
+}
+
+.displayItems h1{
+   margin-top: 0;
+}
+
+.title {
+   margin-top: 15px;
+   margin-bottom: 45px;
+   color: var(--website-color);
+}
+
+.listitems {
+   display: flex;
+   justify-content: space-between;
+}
+
+.resultCount p {
+   margin-top: 8px;
+   margin-bottom: 0;
+}
+
+.filterbaramount {
+   display: flex;
+   justify-content: space-between;
+}
+
+.filterbuttons {
+   display: flex;
+   justify-content: end;
+   gap: 10px;
+   margin-top: 10px;
+}
+
+.filtercatagory li,
+.resentlyviewedproducts li {
+   list-style: none;
+}
+
+.filtercatagory li span {
+   color: var(--website-color);
+}
+
+.recently_item {
+   padding: 5px;
+   display: flex;
+   justify-content: start;
+   gap: 20px;
+}
+
+.recently_item img {
+   height: 50px;
+}
+
+.searchbar,
+.filterbar,
+.filtercatagory,
+.resentlyviewedproducts{
+      padding: 30px;
+      background-color: var(--block-color);
+   }
+
+   .cardlist {
+   margin: 30px auto;  
+   }
+
+@media only screen and (max-width: 920px) {
+   
+   .displayItems h1{
+      font-size: 3.23rem;
+   }
+   
+   .itemsandfilters {
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+   }
+
+   .cardlist {
+      margin: 20px auto;
+   }
+}
+
+@media only screen and (max-width: 450px) {
+   .listitems{
+      flex-direction: column;
+      gap: 1rem;
+   }
+   .displayItems h1{
+      font-size: 2.1rem;
+   }
+}

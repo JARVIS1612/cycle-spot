@@ -1,0 +1,10 @@
+table{
+   border-collapse: collapse;
+   width: 100%;
+   font-weight: bold;
+}
+td{  
+   border-collapse: collapse;
+   border:1px solid rgba(89, 89, 89, 0.532);
+   padding: 12px;
+}

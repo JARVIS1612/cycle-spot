@@ -1,0 +1,9 @@
+.size{
+   background-color: transparent;
+   border: 1px solid;
+}
+
+.size:hover{
+   color: gray !important;
+   border-color: gray !important;
+}

@@ -1,0 +1,139 @@
+
+
+.buttondisplay{
+   position: fixed;
+   padding: 10px;
+   background-color: white;
+   right: 0px;
+   top: 40%;
+   z-index: 6000;
+   transition: right 0.6s;
+   box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+   cursor: pointer;
+}
+
+.animationright{
+   right: 0;
+}
+
+.buttondisplay div{
+   margin-left: 10px;
+   width: fit-content;
+   display: inline;
+}
+
+.l_drover{
+   background-color: rgb(255, 255, 255);
+   z-index: 6000;
+   width: 330px;
+   height: 100vh;
+   position: fixed;
+   right: -2000px;
+   overflow-y: scroll;
+   overflow-x: hidden;
+   padding-right: 20px;
+   transition: right 0.4s;
+}
+
+.clrtheme{
+   display: flex;
+   gap: 10px;
+}
+
+
+.closed_sign {
+   display: flex;
+   justify-content: space-between;
+   padding: 15px;
+   width: 100%;
+   box-shadow: 0px 15px 10px -15px #111;
+}
+
+.content{
+   padding: 30px;
+}
+
+.tryOtherClrs{
+   margin-top: 20px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.tryOtherClrs .text{
+   font-size: large;
+}
+
+.tryOtherClrs .resetclr{
+   font-size: small;
+   cursor: pointer;
+   color: blue;
+}
+
+.dfThemeButton{
+   border: 1px solid;
+    padding: 10px;
+    display:flex;
+    gap: 30px; 
+    width: 50%;
+    cursor: pointer;
+}
+
+.dfThemeButton:hover, .FontTheme div:hover, .FontButton:hover{
+   border-color: blue;
+}
+
+.diffTheme{
+   display: flex;
+   gap: 10px;
+   flex-direction: column;
+   margin-top: 30px;
+}
+
+.ThemeButton{
+   display: flex;
+   border: 1px solid;
+   justify-content: space-between;
+   width: 100%;
+   padding: 10px;
+}
+
+.ThemeButton div{
+   width: 50%;
+}
+
+.diffTheme div{
+   display: flex;
+   gap: 10px;
+}
+
+.FontButton{
+   padding: 10px;
+   margin-top: 10px;
+   background-color: rgb(236, 236, 236);
+   border: 1px solid gray;
+   text-align: center;
+   cursor: pointer;
+}
+
+.FontTheme > div{
+   display: flex;
+   gap: 20px;
+   /* justify-content: space-evenly; */
+   margin-top: 20px;
+   text-align: center;
+   font-size: 20px;
+}
+
+.FontTheme > div > div{
+   padding: 10px;
+   width: 100px;
+   background-color: rgb(236, 236, 236);
+   border: 1px solid gray;
+   cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+   .l_drover{
+      width: 80%;
+   }
+}

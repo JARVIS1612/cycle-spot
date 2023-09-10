@@ -1,0 +1,22 @@
+.buttons {
+   display: flex;
+   gap: 10px;
+   justify-content: end;
+}
+
+.box {
+   overflow-y: scroll;
+   scroll-behavior: auto;
+   height: 25rem;
+   padding: 0.5rem;
+}
+
+
+@media only screen and (max-width: 535px) {
+   .inline_fields {
+      display: block;
+   }
+   .inline_fields input {
+      width: 100% !important;
+   }
+}

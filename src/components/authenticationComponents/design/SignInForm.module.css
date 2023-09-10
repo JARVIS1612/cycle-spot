@@ -1,0 +1,22 @@
+.login_form {
+   max-width: 300px;
+}
+.login_form_forgot{
+   float: right;
+   color: var(--website-color);
+}
+.login_form_register{
+   color: var(--website-color);
+}
+
+.login_form_forgot:hover, .login_form_register:hover{
+   opacity: 0.8;
+   cursor: pointer;
+}
+
+.ant_col_rtl .login_form_forgot {
+   float: left;
+}
+.login_form_button {
+   width: 100%;
+}

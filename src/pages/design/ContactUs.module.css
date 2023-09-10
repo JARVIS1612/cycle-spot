@@ -1,0 +1,105 @@
+.title_div{
+   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.461), rgba(0, 0, 0, 0.397)), url("../../assets/imgs/contactus.jpg");
+   background-repeat: no-repeat; 
+   position: absolute;
+   top: 0;
+   background-position: center;
+   background-size: cover;
+   width: 100%;
+   height: 16rem;
+   padding-top: 150px;
+   text-align: center;
+   color: white;
+}
+
+.map_div{
+   margin-top: 24rem;
+}
+
+.numbers{
+   font-family: var(--website-font);
+   font-size: larger;
+   margin-top: 1rem;
+}
+
+.numbers_icon span{
+   color: var(--website-color);
+}
+
+.numbers_icon{
+   text-align: center;
+   display: flex;
+   justify-content: space-around;
+   height: 28rem;
+   align-items: center;
+}
+
+
+.numbers_icon p, .contactUsDetails p{
+   width: fit-content;
+   margin: 0;
+}
+
+
+
+.contactUsFormDetails{
+   padding: 1rem;
+   height: 35rem;
+   display: flex;
+   justify-content:space-evenly;
+   background-color: var(--bg-color);
+}
+
+
+.contactUsDetails div{
+   margin-top: 3rem;
+}
+
+.form{
+   width: 100%;
+   height: fit-content;
+   background-color: var(--block-color);
+   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
+   padding: 3rem;
+   margin: -5rem 0px 0px 0px;
+}
+
+.form input{
+   font-size: 16px;
+}
+
+.formtitle{
+   margin-bottom: 2rem;
+}
+
+.inline_fields{
+   display: flex;
+   justify-content: space-between;
+}
+
+@media only screen and (max-width: 1200px) {
+   .contactUsDetails{
+      margin: auto;
+   }
+   .form{
+      margin-top: 0rem;
+      width: fit-content;
+   }
+}
+
+@media only screen and (max-width: 921px) {
+   .contactUsDetails{
+      margin: 0;
+   }
+   .form{
+      margin-top: 0rem;
+      width: auto;
+   }
+   .contactUsFormDetails{
+      flex-direction: column;
+      height: fit-content;
+   }
+   .contactUsForm{
+      width: 100%;
+   }
+}

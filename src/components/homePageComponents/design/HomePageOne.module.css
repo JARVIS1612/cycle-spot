@@ -1,0 +1,35 @@
+.first_content{
+   color: white;
+   z-index: 0;
+   padding-left: 10%;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   position: absolute;
+}
+
+.title{
+   width: 80%;
+   line-height: 1;
+}
+
+.specification{
+   margin-bottom: 12px;
+}
+
+.spec_list{
+   margin-bottom: 25px;
+}
+
+
+.first_content li{
+   list-style-type: none;
+}
+
+
+@media only screen and (max-width: 921px){
+   .first_content h1{
+      width: 100%;
+   }
+}

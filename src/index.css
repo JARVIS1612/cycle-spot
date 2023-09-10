@@ -1,0 +1,115 @@
+:root{
+  --website-font:  'Racing Sans One';
+  --website-color: rgb(223, 69, 62);
+  --bg-color: rgb(245, 245, 245);
+  --block-color: rgb(255, 255, 255);
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.links:hover{
+  color: var(--website-color);
+}
+
+.path {
+  color: gray;
+  font-weight: bold;
+}
+
+*::selection{
+  background-color: var(--website-color);
+}
+
+.bullet_points{
+  color: var(--website-color);
+}
+
+.Navbar{
+  background-color: var(--navbar-color);
+}
+
+.customFont{
+  font-family: var(--website-font);
+}
+
+.group-1{
+  font-family: var(--website-font);
+  font-size: 6.13rem;
+}
+
+.group-2{
+  font-family: var(--website-font);
+  font-size: 2.25rem;
+}
+
+.group-3{
+  font-family: var(--website-font);
+  font-size: 3.25rem;
+}
+
+.group-4{
+  font-family: var(--website-font);
+  font-size: 1.375rem;
+}
+
+.group-5{
+  font-family: var(--website-font);
+  font-size: 1.56rem;
+}
+
+.group-6{
+  font-family: var(--website-font);
+  font-size: 2rem;
+}
+
+body {
+  margin: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: var(--website-color); 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--bg-color); 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+@media only screen and (max-width: 921px) {
+  .group-1{
+    font-size: 55px;
+  }
+  
+  .group-2{
+    font-size: 36px;
+  }
+  
+  .group-3{
+    font-size: 36px;
+  }
+  
+  .group-4{
+    font-size: 22px;
+  }
+}

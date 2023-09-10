@@ -1,0 +1,15 @@
+.ReviewTemplate{
+   display: flex;
+   margin-top: 10px;
+   margin-bottom: 40px;
+}
+
+.avatar_icon{
+   margin-right: 20px;
+}
+
+.review_text .review_title{
+   font-size: 24px;
+   font-weight: bold;
+   font-style: italic;
+}

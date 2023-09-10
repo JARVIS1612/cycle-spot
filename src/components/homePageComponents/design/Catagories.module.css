@@ -1,0 +1,56 @@
+.content {
+   color: rgb(255, 254, 254);
+   height: fit-content;
+   margin: 0px 10% 0px 10%;
+}
+
+.upper_title {
+   font-size: 2rem;
+   font-style: italic;
+}
+
+.title {
+   font-size: 3.69rem;
+   font-style: italic;
+   font-weight: bold;
+}
+
+.content .group-2 h3 {
+   margin: 10px 0px;
+}
+
+.description {
+   width: 55%;
+   margin: 30px 0px 30px;
+}
+
+.points {
+   list-style: none;
+   display: flex;
+   /* max-height: 200px; */
+   flex-direction: row;
+   flex-wrap: wrap;
+   width: fit-content;
+   gap: 0px 50px;
+}
+
+.points li {
+   margin-top: 10px;
+}
+
+@media only screen and (max-width: 1024px) {
+   .points {
+      display: block;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      width: none;
+   }
+
+   .description {
+      width: 100%;
+   }
+
+   .content {
+      margin: 0px 3% 0px 3%;
+   }
+}

@@ -1,0 +1,53 @@
+.outer{
+   background-color: var(--bg-color);
+   padding: 20px;
+}
+
+.inner{
+   display: flex;
+   flex-direction: column;
+   align-items: end;
+   margin: 4rem auto ;
+   width: 80%;
+   padding: 6%;
+   background-color: var(--block-color);
+}
+
+.cardinner{
+   padding: 3%;
+}
+
+.cartCard{
+   width: 500px;
+   border-radius: 0;
+}
+
+.cardTitle{
+   background-color: var(--bg-color);
+   padding: 15px;
+   border-bottom: 1px solid rgba(68, 68, 68, 0.58);
+}
+
+.amount table, .amount td{
+   border: 0px solid ;
+   width: 100%;
+}
+
+.amount tr{
+   border-bottom: 1px solid rgba(68, 68, 68, 0.58);
+}
+
+.buttonRow{
+   margin-top: 20px;
+}
+
+.cartCard{
+   border: 1px solid rgba(68, 68, 68, 0.58);
+}
+
+@media only screen and (max-width: 921px) {
+   .cartCard{
+      width: 100%;
+      border-radius: 0;
+   }
+}
